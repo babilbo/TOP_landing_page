@@ -1,0 +1,1 @@
+This is the first project using the html and css I've learned thus far with TOP. This will be a good practice of flexbox css, the box model as well as basic layout design and structure.
