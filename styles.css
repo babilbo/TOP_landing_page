@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 100px;
     margin: 0%;
 }
 
@@ -35,6 +36,8 @@ ul {
     display: flex;
     list-style-type: none;
     column-gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .first_content {
@@ -56,4 +59,15 @@ ul {
 
 .text p {
     margin-top: 0%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 7px 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
 }
