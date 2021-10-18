@@ -81,8 +81,8 @@ ul {
     background-color: white;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
     padding-bottom: 100px;
     margin: 0%;
 }
@@ -97,8 +97,8 @@ ul {
 .second_img img{
     border: 3px solid #3882F6;
     border-radius: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
     margin-bottom: 0%;
     margin-top: 18px;
 }
@@ -111,10 +111,47 @@ ul {
 .second_text p {
     text-align: center;
     width: 140px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 19px;
+    margin-right: 19px;
     margin-top: 0%;
     font-size: 15px;
     font-weight: 100;
-    color: #E5E7EB;
+    color: #757679;
+}
+
+/* Third Section */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.quote {
+    width: 830px;
+    align-self: center;
+}
+
+.quote h2{
+    font-size: 36px;
+    font-weight: 100;
+    transform: scale(1, 1.1);
+    font-style:italic;
+    color: #1F2937;
+    opacity: 80%;
+}
+
+.by_line {
+    align-self: flex-end;
+}
+
+.by_line p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
