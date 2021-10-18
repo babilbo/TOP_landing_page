@@ -6,6 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* First Section*/
 .first {
     background-color: #1F2937;
     margin: 0%;
@@ -70,4 +71,50 @@ ul {
     font-weight: bold;
     border-radius: 8px;
     border: none;
+}
+
+/* Second Section*/
+
+.second {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    margin: 0%;
+}
+
+.second_title h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 40px;
+}
+
+.second_img img{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0%;
+    margin-top: 18px;
+}
+
+.second_text {
+    display: flex;
+    align-items: center;
+}
+
+.second_text p {
+    text-align: center;
+    width: 140px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0%;
+    font-size: 15px;
+    font-weight: 100;
+    color: #E5E7EB;
 }
