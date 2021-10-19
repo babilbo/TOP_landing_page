@@ -36,15 +36,18 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    column-gap: 10px;
+    column-gap: 15px;
     font-size: 18px;
     color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .first_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 30px;
 }
 
 .first_content .text {
