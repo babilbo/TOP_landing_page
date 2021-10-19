@@ -212,3 +212,19 @@ ul {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer_text p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
